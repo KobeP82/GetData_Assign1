@@ -66,7 +66,9 @@ subset_mean<-grep("mean",colnames(all_data),value=TRUE)
 subset_std<-grep("std",colnames(all_data),value=TRUE)
 
 ## Subset for subject, activity and columns containing "mean" or "std"
-tidy_data<-all_data[,c("subject","activity",subset_mean,subset_std)]
+tidy_data_extra<-all_data[,c("subject","activity",subset_mean,subset_std)]
+subset_meanFreq<-grep("meanFreq",colnames(tidy_data_extra),value=FALSE) # find columns with meanFreq
+tidy_data<-subset(tidy_data_extra, select=-c(subset_meanFreq)) # instead of mean and remove
 
 ##############################################################################################
 

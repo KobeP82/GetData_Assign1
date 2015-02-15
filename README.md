@@ -16,7 +16,7 @@ The run.analysis.R script will:
 * Average these variables by subject ID and actvity
 * Write the resulting averages to a file called "tidy_data_means.txt"
 
-In addition to the R script, this repository contains a code book called "code_book.md" describing the variables in the tidy_data_means.txt file
+In addition to the R script, this repository contains a code book called "CodeBook.md" describing the variables in the tidy_data_means.txt file
 
 
 

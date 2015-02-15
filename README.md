@@ -14,9 +14,9 @@ The run.analysis.R script will:
 * Combine the training and test sets into one data set;
 * Subset this data set for variables that refer to "mean" or "std" only
 * Average these variables by subject ID and actvity
-* Write the resulting averages to a file called "tidy_data_means.txt"
+* Write the resulting averages to a file called "tidy_data.txt"
 
-In addition to the R script, this repository contains a code book called "CodeBook.md" describing the variables in the tidy_data_means.txt file
+In addition to the R script, this repository contains a code book called "CodeBook.md" describing the variables in the tidy_data.txt file
 
 
 

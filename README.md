@@ -2,7 +2,7 @@
 
 Welcome to my repository for the Coursera - Getting and Cleaning Data course project
 
-To reporduce the tidy_data_means.txt submitted for the Coursera - Getting and Cleaning Data course project:
+To reporduce the tidy_data.txt submitted for the Coursera - Getting and Cleaning Data course project:
 * Unzip the "getdata-projectfiles-UCI HAR Dataset.zip" file in your R working directory;
 * Check that the working directory now contains a folder "UCI HAR Dataset" which has all the data in it;
 * Run the run.analysis.R script included in this repository.
